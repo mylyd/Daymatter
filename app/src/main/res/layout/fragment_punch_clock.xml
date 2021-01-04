@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    android:paddingTop="@dimen/fitsSystemWindows_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp" >
+            <TextView
+                android:textColor="#1D1A02"
+                android:id="@+id/mainTitle"
+                android:text="@string/matter_punch_clock_title"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="20sp"
+                android:paddingLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/main_title_bg"
+                android:layout_marginTop="60dp">
+                <TextView
+                    android:textColor="#272304"
+                    android:id="@+id/subTitle"
+                    android:paddingLeft="16dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/matter_punch_clock_motto"
+                    android:textSize="14sp"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+
+            <ImageView
+                android:text="game"
+                android:visibility="visible"
+                android:src="@drawable/matter_game"
+                android:layout_gravity="right"
+                android:id="@+id/game"
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="12dp"
+            android:id="@+id/recycler"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/archive_area"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/white_corner_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:src="@drawable/punch_archive"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:textColor="#272304"
+                android:text="@string/matter_punch_clock_archive"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/add_area"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="12dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/matter_add_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:src="@drawable/matter_reminder_add"
+                android:layout_marginRight="8dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/add"
+                android:textColor="#272304"
+                android:text="@string/matter_add"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ad.mobo.base.view.NativeControllerLayout
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:id="@+id/ad"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

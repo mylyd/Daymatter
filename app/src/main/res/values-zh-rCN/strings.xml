@@ -1,0 +1,202 @@
+<resources>
+    <string name="matter_tab_reminder">纪念日</string>
+    <string name="matter_tab_home">主页</string>
+    <string name="matter_tab_record">打卡</string>
+    <string name="matter_tab_calendar">日历</string>
+    <string name="matter_tab_find">发现</string>
+    <string name="matter_tab_drink">喝水</string>
+    <string name="matter_tab_setting">设置</string>
+    <string name="matter_day">天</string>
+    <string name="matter_left_day">还有</string>
+    <string name="matter_already_day">已经过去</string>
+    <string name="matter_target">目标日：</string>
+    <string name="matter_edit">编辑</string>
+    <string name="matter_share">分享</string>
+    <string name="matter_reminder_tint_time">目标日(未来日期为倒数，过去日期为正数)</string>
+    <string name="matter_reminder_repeat">重复</string>
+    <string name="matter_reminder_top">置顶</string>
+    <string name="matter_drink_title">喝水</string>
+    <string name="matter_tasks_empty">数据内容为空</string>
+    <string name="matter_reminder_delete">删除</string>
+    <string name="matter_reminder_save_pic">保存图片</string>
+    <string name="matter_reminder_save">保存</string>
+    <string name="matter_reminder_save_success">保存图片成功！</string>
+    <string name="matter_reminder_save_failed">保存图片失败，请重新尝试！</string>
+    <string name="matter_reminder_title_hint">输入事件名字</string>
+    <string name="matter_reminder_new">新增纪念日</string>
+    <string name="matter_reminder_edit">编辑纪念日</string>
+    <string name="matter_reminder_motto">生活需要仪式感，不要忘了重要的日子</string>
+    <string name="matter_advice_feedback">意见反馈</string>
+    <string name="matter_five_start">五星好评</string>
+    <string name="matter_notification_hint">开启通知栏提醒</string>
+    <string name="matter_privacy_hint">隐私政策</string>
+    <string name="matter_rating_dialog_title">产品评价</string>
+    <string name="matter_rating_dialog_content">如果您觉得产品不错，请您给5星好评！</string>
+    <string name="matter_rating_feedback_content">我们期待你的建议和意见！</string>
+    <string name="matter_cancel">取消</string>
+    <string name="matter_submit">提交</string>
+    <string name="matter_confirm">确定</string>
+    <string name="matter_abort">放弃</string>
+    <string name="matter_success_task">完成任务</string>
+    <string name="matter_email">邮箱</string>
+    <string name="matter_suggestion">建议</string>
+    <string name="matter_email_tint">请输入您的邮箱</string>
+    <string name="matter_suggestion_tint">请输入你的建议</string>
+    <string name="matter_rating_feedback_title">Feedback</string>
+    <string name="matter_punch_clock_title">打卡</string>
+    <string name="matter_punch_clock_motto">锲而舍之,朽木不折,锲而不舍,金石可镂</string>
+    <string name="matter_punch_clock_archive">已归档任务</string>
+    <string name="matter_add">添加</string>
+    <string name="matter_punch_each_time">%1$d分钟</string>
+    <string name="matter_punch_each_time_none">不耗时</string>
+    <string name="matter_punch_days">共打卡%1$d天</string>
+    <string name="matter_punch_weeks">共打卡%1$d周</string>
+    <string name="matter_punch_total_day">今日共执行%1$d/%2$d次</string>
+    <string name="matter_punch_total_week">本周共执行%1$d/%2$d次</string>
+    <string name="matter_punch_total">共执行%1$d次</string>
+    <string name="matter_punch_title">添加任务</string>
+    <string name="matter_punch_time">时间</string>
+    <string name="matter_punch_customize">自定义</string>
+    <string name="matter_punch_not_time_consuming">不耗时</string>
+    <string name="matter_punch_positive_countup">正计时</string>
+    <string name="matter_punch_time_color">颜色</string>
+    <string name="matter_punch_customize_icon">图标</string>
+    <string name="matter_punch_not_time_consuming_icon">重复</string>
+    <string name="matter_punch_positive_timing_icon">目标</string>
+    <string name="matter_punch_every_day">每天</string>
+    <string name="matter_punch_frequency">%d天</string>
+    <string name="matter_punch_save">保存</string>
+    <string name="matter_punch_select_color">选择颜色</string>
+    <string name="matter_punch_select_icon">选择图标</string>
+    <string name="matter_punch_once">仅一次</string>
+    <string name="matter_punch_weekly">每周</string>
+    <string name="matter_punch_per_year">每年</string>
+
+
+    <string name="matter_punch_total_day_minute">今日共执行%1$d/%2$d分钟</string>
+    <string name="matter_punch_total_week_minute">本周共执行%1$d/%2$d分钟</string>
+    <string name="matter_punch_total_minute">共执行%1$d分钟</string>
+
+    <string name="matter_punch_notification_minute">需要%1$d分钟才能达到目标</string>
+    <string name="matter_punch_notification">需要%1$d次才能达到目标</string>
+    <string name="matter_punch_dialog_no_target">棒棒哒，奖励一朵小红花！</string>
+
+    <string name="matter_punch_time_complete">完成</string>
+    <string name="matter_punch_time_start">开始</string>
+    <string name="matter_punch_time_pause">暂停</string>
+    <string name="matter_punch_time_complete_and_punch">Complete the task and punch in directly!</string>
+    <string name="matter_punch_archived_click">已归档任务，不可打卡！</string>
+    <string name="matter_punch_history">打卡记录</string>
+    <string name="matter_punch_order_positive">正序</string>
+    <string name="matter_punch_order_negative">逆序</string>
+    <string name="matter_punch_history_time">%1$s记录了%2$d分钟</string>
+
+    <string name="matter_punch_task_interrupt">任务中断</string>
+    <string name="matter_punch_task_interrupt_content">任务还未完成，确定放弃吗？</string>
+
+    <string name="matter_punch_task_complete">任务已完成</string>
+
+    <string name="matter_punch_add_title">添加任务</string>
+    <string name="matter_punch_edit_title">编辑任务</string>
+    <string name="matter_punch_positive_countdown">倒计时</string>
+    <string name="matter_determine">确定</string>
+    <string name="matter_punch_frequency_c">%d次</string>
+    <string name="matter_punch_frequency_m">%d分钟</string>
+
+    <string name="matter_punch_ed_frequency">执行</string>
+    <string name="matter_punch_ed_frequency_end">次</string>
+    <string name="matter_punch_ed_time">耗时</string>
+    <string name="matter_punch_ed_time_end">分钟</string>
+    <string name="matter_punch_ed_no">无</string>
+    <string name="matter_value_cannot_empty">选中模式设置的数值不能为空</string>
+    <string name="matter_select_setup_mode">请选择您的设置模式</string>
+    <string name="matter_punch_time_value">时间默认为25分钟</string>
+    <string name="matter_punch_time_customize_time">自定义时间为空</string>
+    <string name="matter_title_value_cannot_empty">标题为空</string>
+    <string name="matter_value_empty">参数设置错误</string>
+    <string name="matter_value_delete">你确定删除这个任务么？\n删除任务将一并删除此任务的\n打卡记录</string>
+
+    <!--预置数据1-->
+    <string name="preset_punch_data_1_title">学英语</string>
+    <!--预置数据2-->
+    <string name="preset_punch_data_2_title">锻炼腹肌</string>
+
+    <string name="item_monday">星期一</string>
+    <string name="item_tuesday">星期二</string>
+    <string name="item_wednesday">星期三</string>
+    <string name="item_thursday">星期四</string>
+    <string name="item_friday">星期五</string>
+    <string name="item_saturday">星期六</string>
+    <string name="item_sunday">星期日</string>
+
+    <string name="item_january">一月</string>
+    <string name="item_february">二月</string>
+    <string name="item_march">三月</string>
+    <string name="item_april">四月</string>
+    <string name="item_may">五月</string>
+    <string name="item_june">六月</string>
+    <string name="item_july">七月</string>
+    <string name="item_august">八月</string>
+    <string name="item_september">九月</string>
+    <string name="item_october">十月</string>
+    <string name="item_november">十一月</string>
+    <string name="item_december">十二月</string>
+
+    <string name="item_not_repeating">不重复</string>
+    <string name="item_repeat_weekly">每周重复</string>
+    <string name="item_repeat_monthly">每月重复</string>
+    <string name="item_repeat_every_year">每年重复</string>
+
+    <string name="drink_item_title">每日补水</string>
+    <string name="drink_cup_capacity">%s / %s %s</string>
+    <string name="drink_item_capacity">%s %s / %s </string>
+    <string name="drink_next_time">下次饮用时间</string>
+    <string name="drink_drinking_records">喝水记录（%s）</string>
+    <string name="drink_ok_content">很好！\n保持水分！</string>
+    <string name="option_menu_history_record">历史记录</string>
+    <string name="option_menu_edit_Goal">编辑目标</string>
+    <string name="drink_value_confidential">机密</string>
+    <string name="drink_value_male">男</string>
+    <string name="drink_value_female">女</string>
+    <string name="drink_water_goals">饮水目标</string>
+    <string name="drink_unit">单位</string>
+    <string name="drink_gender">性别</string>
+    <string name="drink_body_weight">体重</string>
+    <string name="drink_wake_up_time">起床时间</string>
+    <string name="drink_sleeping_time">睡觉时间</string>
+    <string name="invite_content">生活需要一种仪式感，重要的日子值得纪念！\n GooglePlay：https://play.google.com/store/apps/details?id=com.mobo.daymatter.dailyreminder</string>
+    <string name="drink_toast_capacity_lowest">当前单次饮水容量为最低值</string>
+    <string name="drink_toast_capacity_highest">当前单次饮水容量是最高值</string>
+    <string name="drink_toast_total_lowest">当前的总饮水容量不能低于最低值</string>
+    <string name="drink_toast_total_progress">当前的饮水进度设置不能低于0</string>
+    <string name="dialog_calculate_water_drinking">计算饮用水量 \t>>></string>
+    <string name="history_record_weekly_average">每周平均</string>
+    <string name="history_record_monthly_average">每月平均</string>
+    <string name="history_record_average_completion">平均完成</string>
+    <string name="history_record_drinking_frequency">饮水频率</string>
+    <string name="history_record_value">%s%s / 天</string>
+    <string name="time_text_value">%s:%s</string>
+    <string name="toast_not_time_to_drink">该喝水了</string>
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="drinking">喝水</string>
+    <string name="drinking_water">喝水</string>
+    <string name="drinking_water_value">喝水 %d/%d%s</string>
+    <string name="kg">kg</string>
+    <string name="lbs">lbs</string>
+    <string name="start_calculating">开始计算</string>
+    <string name="ok">好的</string>
+    <string name="you_daily_water_drinking_goal">您每天的饮水目标</string>
+    <string name="generating_a_plan_for_you">正在为您制定计划……</string>
+    <string name="we_need_some">我们需要您提供一些基本数据以便为您量身定制的保湿建议。\n这些数据将被保密。</string>
+    <string name="when_you_sleep">您入睡时，我们不会打扰您的。</string>
+    <string name="after_your_awakening">您醒来后，我们会提醒您喝水。</string>
+    <string name="need_weight_data">我们需要您的体重数据来制定更好的计划。</string>
+    <string name="setting_time">设置时间</string>
+    <string name="setting_weight">设定重量</string>
+    <string name="current_drinking_wate">当前的饮用水已达到当今的饮用水目标</string>
+    <string name="you_need_to_stay_hydrated">是时候喝水了！\n您需要保持水分</string>
+    <string name="each_time_the_water">每次喝水容器容量不能为0</string>
+    <string name="share_drinking_history">保持水分，健康生活，合理定制饮水计划，保障身心健康！</string>
+
+</resources>

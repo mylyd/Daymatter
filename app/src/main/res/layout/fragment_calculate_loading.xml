@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_color_bg_end">
+
+    <ImageView
+        android:id="@+id/iv_loading"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/drink_drink_loading_bg"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/drink_loading_bg_water"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_drink_loading"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#111213"
+        android:layout_marginTop="310dp"
+        android:textSize="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/generating_a_plan_for_you" />
+
+</FrameLayout>

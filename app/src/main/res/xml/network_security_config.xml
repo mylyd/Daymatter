@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--错误记录-CLEARTEXT communication to * not permitted by network
+    Android P系统限制了明文流量的网络请求，需要进行网络声明-->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

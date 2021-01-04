@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/white_corner_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bottle_item"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/item_capacity_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="200 ml / 18:30 "
+        android:textColor="#111213"
+        android:layout_marginLeft="45dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="14dp"/>
+
+    <ImageView
+        android:id="@+id/tv_revise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_drink_revise"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginRight="56dp"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_drink_delete"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginRight="16dp"
+        android:padding="10dp"/>
+
+</FrameLayout>

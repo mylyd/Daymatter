@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_rating"
+    android:layout_gravity="center"
+    android:layout_width="280dp"
+    android:layout_height="308dp"
+    android:background="@drawable/dialog_style_tint">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:text="@string/matter_cancel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/gray_corner_bg"
+            android:padding="12dp"
+            android:textColor="#272304"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/btn_submit"
+            android:text="@string/matter_submit"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/yellow_corner_bg"
+            android:padding="12dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/reminder_dialog"
+        android:layout_width="220dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="195dp"
+        android:gravity="center"
+        android:text="@string/matter_punch_dialog_no_target"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</FrameLayout>

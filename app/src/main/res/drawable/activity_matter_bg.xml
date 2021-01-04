@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/main_color_bg_end" />
+        </shape>
+    </item>
+
+    <item
+        android:height="178dp"
+        android:drawable="@drawable/bg_theme_background" />
+</layer-list>

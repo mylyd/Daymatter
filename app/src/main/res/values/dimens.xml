@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--取消fitsSystemWindows = true 后margin状态栏top值-->
+    <dimen name="fitsSystemWindows_top">24dp</dimen>
+</resources>

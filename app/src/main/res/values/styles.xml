@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <declare-styleable name="MatterTitleView">
+        <attr name="mainTitle" format="string|reference" />
+        <attr name="mainColor" format="color|reference" />
+        <attr name="mainSize" format="dimension|reference" />
+
+        <attr name="subTitle" format="string|reference" />
+        <attr name="subColor" format="color|reference" />
+        <attr name="subSize" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ReminderShareView">
+        <attr name="android:layout" format="reference" />
+    </declare-styleable>
+
+    <style name="dialog_soft_input" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <!--设置评分控件属性-->
+    <style name="RatingStyle" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressDrawable">@drawable/selector_rating_bar</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:maxHeight">30dp</item>
+    </style>
+
+    <!--popWindow动画效果 从下往上-->
+    <style name="bottom_dialog_anim_style">
+        <item name="android:windowEnterAnimation">@anim/popshow</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/pophidden</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+    <!--OptionMenu动画效果 从上往下-->
+    <style name="dialog_anim_option_menu">
+        <item name="android:windowExitAnimation">@anim/menu_hidden</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowEnterAnimation">@anim/menu_show</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+</resources>

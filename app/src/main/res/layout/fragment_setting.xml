@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/fitsSystemWindows_top">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center_vertical"
+            android:text="@string/matter_tab_setting"
+            android:textColor="#1D1A02"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/item_notification"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:padding="16dp"
+                android:background="@drawable/white_corner_bg"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/notification_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:thumb="@drawable/switch_on"
+                    android:track="@drawable/switch_track_on" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/matter_notification_hint"
+                    android:textColor="#111213"
+                    android:textSize="14sp" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_corner_bg">
+
+                <FrameLayout
+                    android:id="@+id/drink_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/drink_water_goals"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_drink_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:text="1900 ml"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#8E8E8E"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/drink_unit"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/drink_unit"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_drink_unit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:text="kg.ml"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#8E8E8E"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/drink_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/drink_gender"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_drink_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:text="Confidential"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#8E8E8E"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/drink_body_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/drink_body_weight"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_body_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:text=""
+                        android:layout_marginRight="20dp"
+                        android:textColor="#8E8E8E"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/drink_wake_up_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/drink_wake_up_time"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_drink_wake_up_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:text="08:00"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#8E8E8E"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/drink_sleeping_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/drink_sleeping_time"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_drink_sleeping_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:text="Not set"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#8E8E8E"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical"
+                android:background="@drawable/white_corner_bg">
+
+                <FrameLayout
+                    android:id="@+id/five_star"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/matter_five_start"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/matter_advice_feedback"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/share"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/matter_share"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@drawable/ic_setting_direction"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <ad.mobo.base.view.NativeControllerLayout
+                        android:id="@+id/ad"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:visibility="visible" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/privacy_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:id="@+id/product_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Daily Reminder 1.0"
+                        android:textColor="#939393"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/privacy_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/matter_privacy_hint"
+                        android:textColor="#939393"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

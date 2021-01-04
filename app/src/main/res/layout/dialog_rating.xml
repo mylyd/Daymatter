@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_rating"
+    android:layout_width="match_parent"
+    android:padding="24dp"
+    android:layout_height="288dp"
+    android:background="@drawable/dialog_dialog_bottom" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:text="@string/matter_rating_dialog_title"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="@string/matter_rating_dialog_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/ratingBar"
+        style="@style/RatingStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="104dp"
+        android:isIndicator="false"
+        android:rating="0"
+        android:stepSize="1"
+        android:focusable="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_marginRight="24dp"
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_btn_cancel_background"
+            android:text="@string/matter_cancel"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:background="@drawable/dialog_btn_submit_background"
+            android:text="@string/matter_submit"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</FrameLayout>
+

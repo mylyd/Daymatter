@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingTop="@dimen/fitsSystemWindows_top"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_back_black" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/option_menu_history_record"
+            android:textColor="#111213"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/record_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:padding="12dp"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/ic_share"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/layout_share"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:background="@color/main_color_bg_end">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_history_record_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/white_corner_bg"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/weekly_average"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/ic_weekly_average"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_weekly_average"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_weekly_average"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_value"
+                        android:textColor="#FF5C38"
+                        android:textSize="14dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/monthly_average"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/ic_monthly_average"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_monthly_average"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_monthly_average"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_value"
+                        android:textColor="#FF5C38"
+                        android:textSize="14dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/average_completion"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/ic_average_completion"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_average_completion"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_average_completion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:drawablePadding="12dp"
+                        android:text="0 %"
+                        android:textColor="#FF5C38"
+                        android:textSize="14dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/drinking_frequency"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableLeft="@drawable/ic_drinking_frequency"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_drinking_frequency"
+                        android:textColor="#111213"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_drinking_frequency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:drawablePadding="12dp"
+                        android:text="@string/history_record_value"
+                        android:textColor="#FF5C38"
+                        android:textSize="14dp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <ad.mobo.base.view.NativeControllerLayout
+                android:id="@+id/ad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="28dp"
+                android:visibility="visible" />
+
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

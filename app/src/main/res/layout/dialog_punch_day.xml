@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_layout"
+    android:layout_width="280dp"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_style_tint">
+
+    <LinearLayout
+        android:id="@+id/layout_frequency"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:checked="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="24dp"
+                android:text="@string/matter_punch_ed_frequency"
+                android:textColor="#272304"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/ed_frequency"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="20"
+                android:maxLines="1"
+                android:textColor="#272304"
+                android:textColorHint="#9B9B9D"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="@string/matter_punch_ed_frequency_end"
+                android:textColor="#272304"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="24dp"
+                android:text="@string/matter_punch_ed_time"
+                android:textColor="#272304"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/ed_time"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="25"
+                android:maxLines="1"
+                android:textColor="#272304"
+                android:textColorHint="#9B9B9D"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="@string/matter_punch_ed_time_end"
+                android:textColor="#272304"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="24dp"
+                android:text="@string/matter_punch_ed_no"
+                android:textColor="#272304"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/yellow_corner_bg"
+                android:gravity="center"
+                android:text="@string/matter_cancel"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/tv_submit"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/yellow_corner_bg"
+                android:gravity="center"
+                android:text="@string/matter_tab_setting"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="68dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/item_every_day"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/yellow_corner_bg"
+            android:gravity="center"
+            android:text="@string/matter_punch_every_day"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/item_weekly"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/gray_corner_bg"
+            android:gravity="center"
+            android:text="@string/matter_punch_weekly"
+            android:textColor="#272304"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/item_per_year"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/gray_corner_bg"
+            android:gravity="center"
+            android:text="@string/matter_punch_per_year"
+            android:textColor="#272304"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/item_once"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/gray_corner_bg"
+            android:gravity="center"
+            android:text="@string/matter_punch_once"
+            android:textColor="#272304"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/matter_punch_not_time_consuming_icon"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+</FrameLayout>

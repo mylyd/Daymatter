@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "134326994084",
+    "firebase_url": "https://daily-apps-5deb8.firebaseio.com",
+    "project_id": "daily-apps-5deb8",
+    "storage_bucket": "daily-apps-5deb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134326994084:android:07ace431a8f0e934b29231",
+        "android_client_info": {
+          "package_name": "com.mobo.daymatter.dailyreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134326994084-qhbs6ud3o29kuol9f8hl1oubdbv2ohmg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNiTIsTwPTjLEms8rgcaY8UmRJkaKFzc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134326994084-qhbs6ud3o29kuol9f8hl1oubdbv2ohmg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="100dp"
+    android:layout_gravity="end"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/ic_option_menu"
+    android:padding="16dp">
+    
+   <TextView
+       android:id="@+id/menu_record"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:textSize="12dp"
+       android:gravity="center_vertical"
+       android:drawablePadding="8dp"
+       android:drawableLeft="@drawable/ic_drink_record"
+       android:text="@string/option_menu_history_record"
+       android:textColor="#111213"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DDDDDD"/>
+
+    <TextView
+        android:id="@+id/menu_edit_goal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:textColor="#111213"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_drink_editgoal"
+        android:text="@string/option_menu_edit_Goal"/>
+
+</LinearLayout>

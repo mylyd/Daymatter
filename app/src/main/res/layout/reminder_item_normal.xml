@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/white_corner_bg"
+    android:layout_marginTop="8dp"
+    android:gravity="center_vertical"
+    android:layout_height="44dp">
+
+    <TextView
+        android:id="@+id/tint_left"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="12dp"
+        android:text="New year left"
+        android:textSize="14sp"
+        android:textColor="#111213"
+        android:layout_toLeftOf="@id/tint_day"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tint_day"
+        android:gravity="right|center_vertical"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        android:text="666"
+        android:maxLines="1"
+        android:maxLength="5"
+        android:layout_alignParentRight="true"
+        android:textColor="#111213"
+        android:layout_width="70dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:text="@string/matter_day"
+        android:gravity="left|bottom"
+        android:paddingBottom="5dp"
+        android:textSize="14sp"
+        android:textColor="#9B9B9D"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:paddingRight="10dp"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

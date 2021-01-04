@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal">
+        
+        <TextView
+            android:id="@+id/tv_bg_male"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:textColor="#4067D5"
+            android:textSize="16dp"
+            android:text="@string/drink_value_male"
+            android:gravity="center_vertical|end"
+            android:paddingRight="45dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/gender_unselected"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_male_bg"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_bg_female"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:textColor="#FF5C38"
+            android:textSize="16dp"
+            android:text="@string/drink_value_female"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="45dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/gender_unselected"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_female_bg"/>
+
+    </FrameLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/we_need_some"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="#111213" />
+
+</LinearLayout>

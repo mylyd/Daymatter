@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_name">
+        <item>@string/item_sunday</item>
+        <item>@string/item_monday</item>
+        <item>@string/item_tuesday</item>
+        <item>@string/item_wednesday</item>
+        <item>@string/item_thursday</item>
+        <item>@string/item_friday</item>
+        <item>@string/item_saturday</item>
+    </string-array>
+
+    <string-array name="month_name">
+        <item>@string/item_january</item>
+        <item>@string/item_february</item>
+        <item>@string/item_march</item>
+        <item>@string/item_april</item>
+        <item>@string/item_may</item>
+        <item>@string/item_june</item>
+        <item>@string/item_july</item>
+        <item>@string/item_august</item>
+        <item>@string/item_september</item>
+        <item>@string/item_october</item>
+        <item>@string/item_november</item>
+        <item>@string/item_december</item>
+    </string-array>
+    <string-array name="repeat_name">
+        <item>@string/item_not_repeating</item>
+        <item>@string/item_repeat_weekly</item>
+        <item>@string/item_repeat_monthly</item>
+        <item>@string/item_repeat_every_year</item>
+    </string-array>
+
+    <string-array name="punch_color">
+        <item>#FF83FA</item>
+        <item>#FFAEB9</item>
+        <item>#FF4500</item>
+        <item>#F4A460</item>
+        <item>#B3EE3A</item>
+        <item>#9B30FF</item>
+        <item>#54FF9F</item>
+        <item>#4876FF</item>
+    </string-array>
+
+    <array name="punch_icon">
+        <item>@drawable/ic_icon_briefcase</item>
+        <item>@drawable/ic_icon_brush</item>
+        <item>@drawable/ic_icon_coffee</item>
+        <item>@drawable/ic_icon_computer</item>
+        <item>@drawable/ic_icon_cycle</item>
+        <item>@drawable/ic_icon_degree</item>
+        <item>@drawable/ic_icon_file</item>
+        <item>@drawable/ic_icon_fitness</item>
+        <item>@drawable/ic_icon_flowers</item>
+        <item>@drawable/ic_icon_headset</item>
+        <item>@drawable/ic_icon_keyboard</item>
+        <item>@drawable/ic_icon_microphone</item>
+        <item>@drawable/ic_icon_music</item>
+        <item>@drawable/ic_icon_no</item>
+        <item>@drawable/ic_icon_package</item>
+        <item>@drawable/ic_icon_phone</item>
+        <item>@drawable/ic_icon_photograph</item>
+        <item>@drawable/ic_icon_pigment</item>
+        <item>@drawable/ic_icon_puzzle</item>
+        <item>@drawable/ic_icon_reading</item>
+        <item>@drawable/ic_icon_rest</item>
+        <item>@drawable/ic_icon_run</item>
+        <item>@drawable/ic_icon_shoot</item>
+        <item>@drawable/ic_icon_sleep</item>
+        <item>@drawable/ic_icon_sun</item>
+        <item>@drawable/ic_icon_swim</item>
+        <item>@drawable/ic_icon_video</item>
+        <item>@drawable/ic_icon_western_food</item>
+        <item>@drawable/ic_icon_windmill</item>
+        <item>@drawable/ic_icon_winebowl</item>
+    </array>
+
+</resources>

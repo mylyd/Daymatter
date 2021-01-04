@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_TypedArray_defValue">#FF83FA</color>
+
+    <!--主题色-->
+    <color name="main_color">#FF5C38</color>
+    <!--主背景渐变 由上至下 -->
+    <color name="main_color_bg_top">@android:color/white</color>
+    <color name="main_color_bg_end">#F6F7F8</color> <!--页面底色-->
+    <color name="number_picker">@android:color/transparent</color> <!--页面底色-->
+</resources>

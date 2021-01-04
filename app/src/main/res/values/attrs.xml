@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveLoadView">
+        <!--模式选择 -->
+        <attr name="wave_load_mode" format="enum">
+            <enum name="icon" value="1" />
+            <enum name="color" value="2" />
+        </attr>
+        <!--是否开启自动加载-->
+        <attr name="wave_load_auto_load" format="boolean" />
+        <!--icon模式下 icon资源-->
+        <attr name="wave_load_icon" format="reference"/>
+        <!--color模式下 背景色-->
+        <attr name="wave_load_color" format="reference|color"/>
+        <!--color模式下 是否展示百分比文本 -->
+        <attr name="wave_load_show_text" format="boolean"/>
+        <!--color模式下 中心文字大小-->
+        <attr name="wave_load_text_size" format="dimension"/>
+        <!--动画时长-->
+        <attr name="wave_load_duration" format="integer"/>
+        <!--icon模式 边缘宽度-->
+        <attr name="wave_load_stroke_width" format="dimension"/>
+    </declare-styleable>
+</resources>
